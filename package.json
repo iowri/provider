@@ -1,0 +1,27 @@
+{
+  "name": "iowri-provider",
+  "version": "0.0.3",
+  "main": "lib/index",
+  "typings": "lib/index",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/iowri/provider.git"
+  },
+  "author": "shwld",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "devDependencies": {
+    "typescript": "^2.3.4"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
+  },
+  "bugs": {
+    "url": "https://github.com/iowri/provider/issues"
+  },
+  "homepage": "https://github.com/iowri/provider#readme",
+  "description": ""
+}
