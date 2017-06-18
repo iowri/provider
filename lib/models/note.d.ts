@@ -3,5 +3,6 @@ export declare class Note {
     id: string;
     path: string;
     body: string;
+    readonly dirPath: any;
     constructor(obj?: any);
 }
